@@ -1,0 +1,67 @@
+@media (max-width: 575px) {
+  body {
+    font-size: 15px;
+  }
+
+  .landingImage {
+    height: 25rem;
+  }
+
+  .title {
+    font-size: 3.5em;
+  }
+
+  .primary-button,
+  .secondary-button {
+    font-size: 0.9em;
+    width: 8em;
+    height: 3em;
+  }
+
+  .services-card {
+    padding: 2.2em !important;
+    height: 25em;
+  }
+
+  .section-title h2 {
+    font-size: 1.5rem;
+  }
+
+  .service-title {
+    font-size: 1.5em;
+  }
+
+  .portfolio-card {
+    height: 22rem;
+  }
+
+  .pricing-card {
+    width: 24rem;
+  }
+  .pricing-card-header {
+    flex-wrap: nowrap;
+  }
+
+  .pricing-header {
+    flex-grow: 1;
+    width: 2rem;
+  }
+
+  .cta-title {
+    font-size: 1.5rem !important;
+  }
+  .cta-text {
+    font-size: 1rem !important;
+  }
+
+
+}
+
+@media (max-width: 767px) {
+}
+
+@media (max-width: 991px) {
+}
+
+@media (max-width: 1199px) {
+}

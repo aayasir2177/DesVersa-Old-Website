@@ -1,0 +1,228 @@
+@font-face {
+  src: url(fonts/Helvetica-Bold.ttf);
+  font-family: Helvetica-Bold;
+}
+
+@font-face {
+  src: url(fonts/Helvetica.ttf);
+  font-family: Helvetica;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+:root {
+  --richBlue: #0b0a1f;
+  --purple: #523eff;
+  --white: #ffffff;
+  --richBlueLowOpac: #1a1935;
+  --whitelowopac: rgb(207, 207, 207);
+}
+
+a {
+  text-decoration: none;
+  color: var(--white);
+}
+.main-container {
+  width: 100vw !important;
+}
+.border-top-left {
+  border-radius: 0.25rem 0rem 0rem;
+}
+
+.border-top-right {
+  border-radius: 0rem 0.25rem 0rem 0rem;
+}
+
+body {
+  background-color: var(--richBlue);
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+}
+
+.brandLogo {
+  width: 8rem;
+}
+
+.navbar-nav {
+  font-family: "Helvetica", sans-serif;
+  font-size: 1.1em;
+}
+
+.navbar {
+  background-color: #0b0a1f;
+}
+
+.landingImage {
+  height: 40rem;
+  object-fit: cover;
+}
+
+.word {
+  color: var(--purple);
+  transition: all 0.2s;
+}
+
+.word:hover {
+  color: #6858f3;
+}
+
+.title {
+  font-family: "Helvetica-Bold", sans-serif;
+  font-size: 4em;
+  line-height: 1.3em;
+  color: var(--white);
+}
+
+.subtitle {
+  font-size: 1em;
+  color: var(--white);
+}
+
+.primary-button {
+  background-color: var(--purple);
+  font-size: 1em;
+  color: var(--white);
+  transition: all 0.2s;
+}
+
+.secondary-button {
+  font-size: 1em;
+}
+
+.primary-button:hover,
+.buyButton:hover {
+  background-color: #6858f3;
+  color: white;
+
+  box-sizing: border-box;
+}
+
+.section-title h2 {
+  font-size: 1.7rem;
+  color: var(--white);
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: var(--purple);
+}
+
+.services-card {
+  width: 30em;
+  height: 20em;
+
+  background-color: var(--richBlueLowOpac);
+  color: var(--white);
+}
+
+.service-title {
+  font-size: 2em;
+  text-transform: capitalize;
+}
+
+.service-para {
+  font-size: 1em;
+}
+
+.portfolio-card {
+  width: 30rem;
+  height: 25rem;
+  cursor: pointer;
+  background-color: var(--richBlueLowOpac);
+}
+
+.pricing-card {
+  width: 30rem;
+  height: 40rem;
+  background-color: var(--richBlueLowOpac);
+}
+.pricing-main-head {
+  font-family: "Helvetica-Bold", sans-serif;
+  font-size: 2em;
+  line-height: 1.3em;
+  color: var(--white);
+  text-align: center;
+}
+.pricing-header {
+  width: 10rem;
+  height: 5rem;
+  cursor: pointer;
+  color: var(--purple);
+  text-decoration: none;
+}
+
+.pricing-header:hover {
+  color: var(--white);
+}
+
+.pricing-header-active {
+  background-color: var(--purple);
+  color: var(--white);
+  text-decoration: none;
+}
+
+.pricing-card-headings {
+  font-family: "Helvetica-Bold", sans-serif;
+  font-size: 4em;
+  line-height: 1.3em;
+  color: var(--white);
+}
+.pricing-card-details {
+  font-size: 1em;
+  text-transform: capitalize;
+  color: var(--white);
+}
+.pricing-card-details-check {
+  color: var(--purple);
+}
+
+.pricing-card-button {
+  background-color: var(--purple);
+  color: var(--white);
+  font-size: 1.4rem;
+  font-family: "Helvetica", sans-serif;
+  font-weight: 500;
+}
+
+.pricing-card-button:hover {
+  background-color: var(--purple);
+  color: var(--white);
+}
+
+.testimonial-card {
+  background-color: #1a1935;
+  color: white;
+}
+
+.cta {
+  background-color: var(--purple) !important;
+}
+
+.cta-button {
+  background-color: #1a1935;
+  font-size: 1em;
+  transition: all 0.2s;
+}
+.cta-button:hover {
+  background-color: #3a3966;
+}
+
+.footer-holder {
+  background-color: #1a1935 !important;
+}
+
+.payment-icons {
+  background-color: rgb(165, 165, 165) !important;
+  border-radius: 10%;
+}
+
+/* Toc */
+
+.Toc-logo img {
+  height: 2rem;
+}
+.Toc-Header {
+  height: 35vh;
+  background-color: var(--richBlue);
+}
